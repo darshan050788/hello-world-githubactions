@@ -30,4 +30,8 @@ jobs:
         run: terraform --version
       - name: IP Address
         run: hostname -f
+      - name: Maven Version
+        run: mvn --version
+      - name: Java version
+        run: java -version
 
