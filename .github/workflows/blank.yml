@@ -30,5 +30,4 @@ jobs:
         run: terraform --version
       - name: IP Address
         run: hostname -f
-      - name: Tomcat Version
-        run: tomcat --version
+
